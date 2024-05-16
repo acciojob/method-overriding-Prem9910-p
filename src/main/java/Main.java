@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        B obj=new B();
-        obj.meth();
+        A a=new A();
+        System.out.println(a.meth());
+        B b=new B();
+        System.out.println(b.meth());
     }
 
 }
